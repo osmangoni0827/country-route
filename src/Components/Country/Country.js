@@ -1,9 +1,8 @@
 import React from 'react';
-import { useHistory } from 'react-router';
 import { Link } from 'react-router-dom';
 import './Country.css';
 const Country = (profs) => {
-    const {flag,name,capital}=profs.details;
+    const {flag,name}=profs.details;
     
     return (
         <div className='countrystyle'>
