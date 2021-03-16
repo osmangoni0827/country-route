@@ -1,0 +1,10 @@
+.countrystyle{
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+}
+.countrystyle img{
+    width: 100%;
+    text-align: center;
+}
